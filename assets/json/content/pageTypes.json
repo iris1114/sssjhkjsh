@@ -1,0 +1,12 @@
+{
+    "drama": "vod",
+    "comic": "vod",
+    "movie": "vod",
+    "kids": "vod",
+    "blessedlife": "vod",
+    "show": "vod",
+    "ent": "vod",
+    "channel": "channel",
+    "vod-channel": "channel",
+    "playout-channel": "channel"
+}

@@ -1,0 +1,44 @@
+{
+    "channel": [
+        {
+            "title": "觀看頻道",
+            "description": "觀看頻道",
+            "target": "_self",
+            "index": 0,
+            "href": {
+                "pathname": "/channel/watch"
+            },
+            "as": "/channel/watch"
+        },
+        {
+            "title": "頻道推薦",
+            "description": "頻道推薦",
+            "target": "_self",
+            "index": 1,
+            "href": {
+                "pathname": "/channel"
+            },
+            "as": "/channel"
+        },
+        {
+            "title": "頻道列表",
+            "description": "頻道列表",
+            "target": "_self",
+            "index": 2,
+            "href": {
+                "pathname": "/channel/list"
+            },
+            "as": "/channel/list"
+        },
+        {
+            "title": "整套看頻道",
+            "description": "整套看頻道",
+            "target": "_self",
+            "index": 3,
+            "href": {
+                "pathname": "/channel/watch/[bsmPackageCategory]"
+            },
+            "as": "/channel/watch/VOD-CHANNEL"
+        }
+    ]
+}

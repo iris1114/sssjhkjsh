@@ -1,0 +1,11 @@
+{
+    "data": {
+        "title": "豪華大促1990",
+        "href": "https://www.litv.tv/promo/2020_1111/",
+        "target": "_blank",
+        "src": "promo.png"
+    },
+    "exclude": [
+        "kids"
+    ]
+}

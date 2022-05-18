@@ -1,0 +1,39 @@
+{
+    "env": "development",
+    "proxyServer": [
+        "https://s-proxy01.svc.litv.tv/cdi/v2/rpc"
+    ],
+    "bsmServer": [
+        "https://s-proxy01.svc.litv.tv/bsm/bsm_pc_service/bsm_pc_service.ashx"
+    ],
+    "bsmApiServer": [
+        "https://s-proxy01.svc.litv.tv/bsm/BSM_pc_service/bsm_pc_api.ashx"
+    ],
+    "acsServer": "https://dev-acs.svc.litv.tv",
+    "pustiService": "https://s-pusti.svc.litv.tv",
+    "accinfoServer": "https://dev-accinfo.svc.litv.tv",
+    "taiwanmediaServer": "https://s-api.svc.taiwanmedia.org",
+    "seoDictionary": "https://staging-fino.svc.litv.tv/litvpc/seo_dictionary.json",
+    "filter": "https://staging-fino.svc.litv.tv/filter.json",
+    "channelIntroduction": "https://staging-fino.svc.litv.tv/frontpage/channel/introduction.json",
+    "list": "https://staging-fino.svc.litv.tv/frontpage/channel/list.json",
+    "cdnstatic": "https://cdnstatic-staging.svc.litv.tv",
+    "playerScript": "https://staging-fino.svc.litv.tv/m-site/player/dist/LiTVPlayer.min.js",
+    "playerStyle": "https://staging-fino.svc.litv.tv/m-site/player/dist/LiTVPlayer.css",
+    "flowplayerScript": "https://staging-fino.svc.litv.tv/m-site/player/lib/flowplayer.commercial-7.2.7/flowplayer.min.js",
+    "flowplayerStyle": "https://staging-fino.svc.litv.tv/m-site/player/lib/flowplayer.commercial-7.2.7/skin/skin.css",
+    "fino": "https://staging-fino.svc.litv.tv",
+    "vodChannelSchedule": "https://staging-fino.svc.litv.tv/vod_channel/schedule.json.zlib",
+    "vodChannelDescription": "https://staging-fino.svc.litv.tv/vod_channel/descriptionV2.json.zlib",
+    "scheduleAllWithMediumPrograms": "https://staging-fino.svc.litv.tv/litvpc/ScheduleAllWithMediumPrograms.json.zlib",
+    "stationCategories": "https://staging-fino.svc.litv.tv/litvpc/StationCategories.json.zlib",
+    "banner": "https://staging-fino.svc.litv.tv/banner/LTWEB02.json",
+    "bulletin": "https://staging-bulletin.svc.litv.tv/",
+    "mktDialog": "https://staging-fino.svc.litv.tv/ims/mkt/modals/LTWEB00.json",
+    "oneSignalAppId": "a57b7a4a-b560-463b-a582-8917ef9c08e1",
+    "hotRank": "https://staging-fino.svc.litv.tv/frontpage/fp_hot_rank.json",
+    "url": "https://dev.litv.tv",
+    "categoryPromo": "https://staging-fino.svc.litv.tv/acs/categorypromo/web/list.json",
+    "purchaseLog": "https://da-cmslite.svc.litv.tv/api/purchase_log",
+    "promo": "https://staging-web.svc.litv.tv/promo"
+}

@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "title": "豪華組合餐",
+            "desc_channel": "400台",
+            "desc_detial": "頻道+6大館",
+            "href": "/purchase/VOD_CHANNEL_DELUX?packageId=XD0005&payTime=year&payMethod=CREDIT&optionPackageId=E_XDG005&step=1",
+            "color": "#d18d21",
+            "target": "_self"
+        },
+        {
+            "title": "頻道全餐",
+            "desc_channel": "400台",
+            "desc_detial": "頻道",
+            "href": "/purchase/CHANNEL_A?packageId=CD0005&payTime=year&payMethod=CREDIT&step=1",
+            "color": "#00a1b9",
+            "target": "_self"
+        }
+    ]
+}

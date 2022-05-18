@@ -1,0 +1,53 @@
+{
+    "name": "LiTV立視線上影視",
+    "short_name": "LiTV線上影視",
+    "description": "LiTV立視線上影視-台灣 No.1 高清正版線上看",
+    "icons": [
+        {
+            "src": "./icon/icon@64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon/icon@192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "lang": "zh-Hant-TW",
+    "start_url": "/?standalone=true",
+    "display": "standalone"
+}

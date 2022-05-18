@@ -1,0 +1,291 @@
+{
+    "ALL": {
+        "title": "隨選影片餐",
+        "description": "電影＋戲劇＋動漫＋綜藝＋兒童＋蒙福人生6大館隨選影片，皆可收看。",
+        "name": "vod",
+        "banner": "ALL.jpg",
+        "promoDialog": null,
+        "packageItems": [
+            {
+                "packageId": "W00001",
+                "title": "每月自動扣款",
+                "price": 150,
+                "time": "month",
+                "average": false,
+                "priceHighlight": false,
+                "averageHighlight": false,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": true,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "W00003",
+                "title": "預付一季",
+                "price": 429,
+                "time": "season",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": true,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": false,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "W00012",
+                "title": "預付一年",
+                "price": 1190,
+                "time": "year",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": true,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": null
+            }
+        ],
+        "payMethodItems": [
+            {
+                "title": "刷卡線上",
+                "method": "CREDIT",
+                "packageIdList": ["W00001", "W00003", "W00012"],
+                "isDefault": true,
+                "sendPackageId": "W00012"
+            },
+            {
+                "title": "超商付款",
+                "method": "REMIT",
+                "packageIdList": ["W00003", "W00012"],
+                "isDefault": false,
+                "sendPackageId": "W00005"
+            },
+            {
+                "title": "ATM轉帳",
+                "method": "ATM",
+                "packageIdList": ["W00003", "W00012"],
+                "isDefault": false,
+                "sendPackageId": "W00005"
+            }
+        ]
+    },
+    "CHANNEL_A": {
+        "title": "頻道全餐",
+        "description": "400台電視頻道。",
+        "name": "channel",
+        "banner": "CHANNEL_A.jpg",
+        "promoDialog": {
+            "title": "限時特賣 讓您免費升等豪華組合！",
+            "description": [
+                "比頻道全餐便宜",
+                "年繳只要 $1990",
+                "還多送6萬小時隨選影片（價值 $1190）",
+                "機會難得 買到賺到"
+            ],
+            "redirect": {
+                "title": "馬上去搶",
+                "href": {
+                    "pathname": "/purchase/[groupId]"
+                },
+                "as": "/purchase/VOD_CHANNEL_DELUX?packageId=XD0016&payTime=year&payMethod=CREDIT&step=2&optionPackageId=E_XDG005"
+            }
+        },
+        "packageItems": [
+            {
+                "packageId": "CD0001",
+                "title": "每月自動扣款",
+                "price": 250,
+                "time": "month",
+                "average": false,
+                "priceHighlight": false,
+                "averageHighlight": false,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "CD0003",
+                "title": "預付一季",
+                "price": 599,
+                "time": "season",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": true,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": false,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "CD0012",
+                "title": "預付一年",
+                "price": 1990,
+                "time": "year",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": true,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": true,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": null
+            }
+        ],
+        "payMethodItems": [
+            {
+                "title": "刷卡線上",
+                "method": "CREDIT",
+                "packageIdList": ["CD0001", "CD0003", "CD0012"],
+                "isDefault": true,
+                "sendPackageId": "CD0012"
+            },
+            {
+                "title": "超商付款",
+                "method": "REMIT",
+                "packageIdList": ["CD0003", "CD0012"],
+                "isDefault": false,
+                "sendPackageId": "CD0005"
+            },
+            {
+                "title": "ATM轉帳",
+                "method": "ATM",
+                "packageIdList": ["CD0003", "CD0012"],
+                "isDefault": false,
+                "sendPackageId": "CD0005"
+            }
+        ]
+    },
+    "VOD_CHANNEL_DELUX": {
+        "title": "豪華組合餐",
+        "description": "400台電視頻道＋6大館隨選影片皆可看！",
+        "name": "delux",
+        "banner": "VOD_CHANNEL_DELUX.png",
+        "promoDialog": null,
+        "packageItems": [
+            {
+                "packageId": "XD0001",
+                "title": "每月自動扣款",
+                "price": 299,
+                "time": "month",
+                "average": false,
+                "priceHighlight": false,
+                "averageHighlight": false,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "XD0003",
+                "title": "預付一季",
+                "price": 849,
+                "time": "season",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": false,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": null,
+                "isDefault": false,
+                "recurrent": false,
+                "promocode": false,
+                "optionPackageInfo": null
+            },
+            {
+                "packageId": "XD0016",
+                "title": "預付一年",
+                "price": 3588,
+                "time": "year",
+                "average": true,
+                "priceHighlight": false,
+                "averageHighlight": true,
+                "promoHTML": null,
+                "itemPromoHTML": null,
+                "promoLabel": "box.gif",
+                "isDefault": true,
+                "recurrent": true,
+                "promocode": false,
+                "optionPackageInfo": {
+                    "title": "加贈好禮二選一",
+                    "optionPackageItems": [
+                        {
+                            "title": "豪華組合餐6個月 每年加贈，平均每月$199",
+                            "optionPackageId": "E_XDG005",
+                            "price": 0,
+                            "promoHTML": {
+                                "__html": "<del>市價 $1794</del>"
+                            },
+                            "description": [
+                                "限時加碼贈送半年免費看（價值 $1794）。",
+                                "400台電視頻道、6大館隨選影片看飽飽。"
+                            ],
+                            "modifyFlag": false,
+                            "isDefault": true
+                        },
+                        {
+                            "title": "4K電視盒一台",
+                            "optionPackageId": "PRO11",
+                            "price": 0,
+                            "promoHTML": {
+                                "__html": "<del>市價 $2490</del>"
+                            },
+                            "description": [
+                                "詳細規格  <a href=\"https:\/\/www.litv.tv\/promo\/RockTek-X3V\/#format\" target=\"_blank\">https://www.litv.tv/promo/RockTek-X3V/<\/a>。",
+                                "享硬體一年保固。",
+                                "機上盒為贈品，不需退回。",
+                                "宅配免運費，訂單確認後五個工作日內送達（不包含週六、日及國定假日）。"
+                            ],
+                            "modifyFlag": true,
+                            "isDefault": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "payMethodItems": [
+            {
+                "title": "刷卡線上",
+                "method": "CREDIT",
+                "packageIdList": ["XD0001", "XD0003", "XD0016"],
+                "isDefault": true,
+                "sendPackageId": "XD0016"
+            },
+            {
+                "title": "超商付款",
+                "method": "REMIT",
+                "packageIdList": ["XD0003", "XD0016"],
+                "isDefault": false,
+                "sendPackageId": "XD0005"
+            },
+            {
+                "title": "ATM轉帳",
+                "method": "ATM",
+                "packageIdList": ["XD0003", "XD0016"],
+                "isDefault": false,
+                "sendPackageId": "XD0005"
+            }
+        ]
+    }
+}

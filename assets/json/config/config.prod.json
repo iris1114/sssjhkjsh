@@ -1,0 +1,44 @@
+{
+    "env": "production",
+    "proxyServer": [
+        "https://twproxy01.svc.litv.tv/cdi/v2/rpc",
+        "https://twproxy02.svc.litv.tv/cdi/v2/rpc",
+        "https://twproxy03.svc.litv.tv/cdi/v2/rpc"
+    ],
+    "bsmServer": [
+        "https://twproxy01.svc.litv.tv/bsm/bsm_pc_service/bsm_pc_service.ashx",
+        "https://twproxy02.svc.litv.tv/bsm/bsm_pc_service/bsm_pc_service.ashx",
+        "https://twproxy03.svc.litv.tv/bsm/bsm_pc_service/bsm_pc_service.ashx"
+    ],
+    "bsmApiServer": [
+        "https://twproxy01.svc.litv.tv/bsm/BSM_pc_service/bsm_pc_api.ashx",
+        "https://twproxy02.svc.litv.tv/bsm/BSM_pc_service/bsm_pc_api.ashx",
+        "https://twproxy03.svc.litv.tv/bsm/BSM_pc_service/bsm_pc_api.ashx"
+    ],
+    "acsServer": "https://acs.svc.litv.tv",
+    "pustiService": "https://pusti.svc.litv.tv",
+    "accinfoServer": "https://accinfo.svc.litv.tv",
+    "taiwanmediaServer": "https://api.svc.taiwanmedia.org",
+    "seoDictionary": "https://fino.svc.litv.tv/litvpc/seo_dictionary.json",
+    "filter": "https://fino.svc.litv.tv/filter.json",
+    "channelIntroduction": "https://fino.svc.litv.tv/frontpage/channel/introduction.json",
+    "list": "https://fino.svc.litv.tv/frontpage/channel/list.json",
+    "cdnstatic": "https://cdnstatic.svc.litv.tv",
+    "playerScript": "https://fino.svc.litv.tv/m-site/player/dist/LiTVPlayer.min.js",
+    "playerStyle": "https://fino.svc.litv.tv/m-site/player/dist/LiTVPlayer.css",
+    "flowplayerScript": "https://fino.svc.litv.tv/m-site/player/lib/flowplayer.commercial-7.2.7/flowplayer.min.js",
+    "flowplayerStyle": "https://fino.svc.litv.tv/m-site/player/lib/flowplayer.commercial-7.2.7/skin/skin.css",
+    "fino": "https://fino.svc.litv.tv",
+    "vodChannelSchedule": "https://fino.svc.litv.tv/vod_channel/schedule.json.zlib",
+    "vodChannelDescription": "https://fino.svc.litv.tv/vod_channel/descriptionV2.json.zlib",
+    "scheduleAllWithMediumPrograms": "https://fino.svc.litv.tv/litvpc/ScheduleAllWithMediumPrograms.json.zlib",
+    "stationCategories": "https://fino.svc.litv.tv/litvpc/StationCategories.json.zlib",
+    "banner": "https://fino.svc.litv.tv/banner/LTWEB02.json",
+    "bulletin": "https://bulletin.svc.litv.tv/",
+    "mktDialog": "https://fino.svc.litv.tv/ims/mkt/modals/LTWEB00.json",
+    "hotRank": "https://fino.svc.litv.tv/frontpage/fp_hot_rank.json",
+    "url": "https://www.litv.tv",
+    "categoryPromo": "https://fino.svc.litv.tv/acs/categorypromo/web/list.json",
+    "purchaseLog": "https://cmslite.svc.litv.tv/api/purchase_log",
+    "promo": "https://www.litv.tv/promo/"
+}

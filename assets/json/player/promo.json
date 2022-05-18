@@ -1,0 +1,32 @@
+{
+    "ent": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    },
+    "show": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    },
+    "drama": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    },
+    "channel": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    },
+    "vod-channel": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    },
+    "playout-channel": {
+        "text": "「頻道＋看片」每月只要199？ 點擊了解更多",
+        "href": "/purchase/VOD_CHANNEL_DELUX?payTime=year&packageId=XD0005&payMethod=CREDIT",
+        "target": "_blank"
+    }
+}

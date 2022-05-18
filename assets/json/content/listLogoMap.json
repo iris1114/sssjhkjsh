@@ -1,0 +1,48 @@
+{
+    "movie": null,
+    "comic": null,
+    "drama": {
+      "91": {
+        "title": "龍華電視",
+        "image": "https://cdnstatic.svc.litv.tv/LONGTURN_logo.png"
+      },
+      "199": {
+        "title": "緯來電視網",
+        "image": "https://cdnstatic.svc.litv.tv/VL_LOGO.png"
+      },
+      "8000004": {
+        "title": "八大電視",
+        "image": "https://cdnstatic.svc.litv.tv/GTV_logo.png"
+      }
+    },
+    "show": {
+      "174": {
+        "title": "八大電視",
+        "image": "https://cdnstatic.svc.litv.tv/GTV_logo.png"
+      },
+      "175": {
+        "title": "EBC 東森娛樂",
+        "image": "https://cdnstatic.svc.litv.tv/EBC_logo.png"
+      },
+      "206": {
+        "title": "緯來電視網",
+        "image": "https://cdnstatic.svc.litv.tv/VL_LOGO.png"
+      },
+      "349": {
+          "title": "龍華電視",
+          "image": "https://cdnstatic.svc.litv.tv/LONGTURN_logo.png"
+      }
+    },
+    "ent": {
+      "113": {
+        "title": "Yes娛樂",
+        "image": "yesLogo.png",
+        "url": "http://tw.fansyes.com/"
+      },
+      "120": {
+        "title": "Yes娛樂",
+        "image": "yesLogo.png",
+        "url": "http://tw.fansyes.com/"
+      }
+    }
+  }

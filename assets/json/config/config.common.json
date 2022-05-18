@@ -1,0 +1,24 @@
+{
+    "projectNum" : "LTWEB00",
+    "swver": "LTWEB000090020141003111900",
+    "platform": "mweb",
+    "cookieMaxAge": 2592000,
+    "appDownload": {
+        "player": "http://hyperurl.co/litvmobilewebplayer",
+        "menu": "http://hyperurl.co/litvmobilewebmenu",
+        "header": "http://hyperurl.co/litvmobilewebheader",
+        "footer": "http://hyperurl.co/litvmobilewebfooter",
+        "hms": "https://appgallery.cloud.huawei.com/marketshare/app/C102039643?locale=zh_TW&source=appshare&subsource=C102039643"
+    },
+    "addLine": "http://bit.ly/2ROGn0C",
+    "normalGroupNumber": 42,
+    "showGroupNumber": 18,
+    "version": 221,
+    "comscoreId": "18986219",
+    "gtagId": "UA-59507085-6",
+    "gtagIdMkt": "UA-145078221-2",
+    "facebookPixelId": "952335108140844",
+    "facebookAdmins": "100000864533119",
+    "facebookAppId": "1510767719182769",
+    "googleTagManagerId": "GTM-NM9N23N"
+}

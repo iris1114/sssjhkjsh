@@ -1,0 +1,16 @@
+# Group 1
+User-agent: *
+Disallow: /member
+Disallow: /config
+Disallow: /purchase/
+Allow: /purchase/introduction
+Disallow: /api
+Disallow: /diversion
+
+# Group 2
+User-agent: Baiduspider
+Disallow: /
+
+# Group 3
+User-agent: Baiduspider-render
+Disallow: /

@@ -1,0 +1,166 @@
+{
+    "menu": [
+        [
+            {
+                "title": "首頁",
+                "description": "首頁",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/"
+                },
+                "as": "/",
+                "highlight": false
+            }
+        ],
+        [
+            {
+                "title": "電視頻道",
+                "description": "電視頻道",
+                "contentType": "channel",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/channel/watch"
+                },
+                "as": "/channel/watch",
+                "highlight": false,
+                "footer": true
+            }
+        ],
+        [
+            {
+                "title": "電影",
+                "description": "電影",
+                "contentType": "movie",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/movie",
+                "highlight": false,
+                "footer": true
+            },
+            {
+                "title": "動漫",
+                "description": "動漫",
+                "contentType": "comic",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/comic",
+                "highlight": false,
+                "footer": true
+            },
+            {
+                "title": "兒童",
+                "description": "兒童",
+                "contentType": "kids",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/kids",
+                "highlight": false
+            },
+            {
+                "title": "戲劇",
+                "description": "戲劇",
+                "contentType": "drama",
+                "tag": "freeTag.png",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/drama",
+                "highlight": false,
+                "footer": true
+            },
+            {
+                "title": "綜藝",
+                "description": "綜藝",
+                "contentType": "show",
+                "tag": "freeTag.png",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/show",
+                "highlight": false,
+                "footer": true
+            },
+            {
+                "title": "蒙福人生",
+                "description": "蒙福人生",
+                "contentType": "blessedlife",
+                "tag": "freeTag.png",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]"
+                },
+                "as": "/blessedlife",
+                "highlight": false
+            },
+            {
+                "title": "免費電影",
+                "description": "免費強片任你看，每週更新不間斷！",
+                "contentType": "movie",
+                "tag": "freeTag.png",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]/searchProgram",
+                    "query": {
+                        "categoryId": 47
+                    }
+                },
+                "as": "/movie/searchProgram?categoryId=47",
+                "highlight": false
+            }
+        ],
+        [
+            {
+                "title": "單片租借",
+                "description": "最新強檔院線直送，每週更新！",
+                "contentType": "movie",
+                "target": "_self",
+                "submenu": [],
+                "insert": [],
+                "filter": null,
+                "href": {
+                    "pathname": "/[contentType]/searchProgram",
+                    "query": {
+                        "categoryId": 169
+                    }
+                },
+                "as": "/movie/searchProgram?categoryId=169",
+                "highlight": false
+            }
+        ]
+    ]
+}

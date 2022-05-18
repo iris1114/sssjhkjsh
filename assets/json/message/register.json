@@ -1,0 +1,6 @@
+{
+    "register.error.badcaptcha": "驗證碼輸入錯誤",
+    "register.error.mobileregistered": "此手機號碼已經註冊過，請洽詢客服",
+    "register.error.other": "未知的錯誤，請洽詢客服！",
+    "register.error.badmobile": "手機號碼格式不正確"
+}

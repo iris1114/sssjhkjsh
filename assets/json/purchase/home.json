@@ -1,0 +1,130 @@
+{
+    "left": [
+        {
+            "title": "豪華每月 $199起",
+            "subtitle": "看片＋頻道首選",
+            "promoLabel": "iconTagCheap.png",
+            "href": "/purchase/VOD_CHANNEL_DELUX?packageId=XD0012&payTime=year&payMethod=CREDIT&optionPackageId=E_XDG005&step=2"
+        },
+        {
+            "title": "隨選影片熱賣中",
+            "subtitle": "每月只要 $99起",
+            "promoLabel": null,
+            "href": "/purchase/subscribePackage.do?id=ALL&package_id=W00012&pay_time=year&payment=CREDIT&step=2"
+        },
+        {
+            "title": "會員獨享驚喜價",
+            "subtitle": "4K電視盒 $1490",
+            "promoLabel": null,
+            "href": "https://www.litv.tv/promo/RockTek-X3V/"
+        }
+    ],
+    "right": [
+        {
+            "title": "隨選影片餐",
+            "shortTitle": "隨選",
+            "slogn": "看片",
+            "name": "vod",
+            "color": "#338dd0",
+            "price": {
+                "month": 150,
+                "season": 429,
+                "year": 1190
+            },
+            "description": [
+                {
+                    "__html": "6大館隨選影片：<a href='/movie' target='_blank'>電影</a>＋<a href='/drama' target='_blank'>戲劇</a>＋<a href='/comic' target='_blank'>動漫</a>＋<a href='/show' target='_blank'>綜藝</a>＋<a href='/kids' target='_blank'>兒童</a>＋<a href='/blessedlife' target='_blank'>蒙福人生</a>，皆可看。"
+                },
+                {
+                    "__html": "上萬部影片，週週更新，免看廣告。"
+                },
+                {
+                    "__html": "電視、電腦、手機、平板、機上盒等多螢跨載具觀賞。"
+                },
+                {
+                    "__html": "此服務方案不含「單片租借」與「頻道」。"
+                }
+            ],
+            "href": "/purchase/ALL",
+            "yearHref": "/purchase/ALL?packageId=W00012&payTime=year&payMethod=CREDIT&step=2",
+            "vod": true,
+            "channel": false,
+            "multiscreen": true,
+            "promoLabel": null
+        },
+        {
+            "title": "頻道全餐",
+            "shortTitle": "頻道",
+            "slogn": "頻道",
+            "name": "channel",
+            "color": "#00a2a8",
+            "price": {
+                "month": 250,
+                "season": 599,
+                "year": 1990
+            },
+            "description": [
+                {
+                    "__html": "精選第四台及 MOD，合法正版電視頻道。"
+                },
+                {
+                    "__html": "400台電視頻道：熱門新聞、體育、財經、電影、戲劇、綜藝、生活、旅遊、親子、熱播綜藝＆戲劇整套看等各類頻道。 <a href='/channel/list' target='_blank'>查看頻道列表 »</a>"
+                },
+                {
+                    "__html": "一個帳號，可同時在 2 台螢幕播放「電視頻道」。"
+                },
+                {
+                    "__html": "電視、電腦、手機、平板、機上盒等多螢跨載具觀賞。"
+                }
+            ],
+            "href": "/purchase/CHANNEL_A",
+            "yearHref": "/purchase/CHANNEL_A?packageId=CD0005&payTime=year&payMethod=CREDIT&step=2",
+            "vod": false,
+            "channel": true,
+            "multiscreen": true,
+            "promoLabel": null
+        },
+        {
+            "title": "豪華組合餐",
+            "shortTitle": "豪華",
+            "slogn": "看片＋頻道",
+            "name": "delux",
+            "color": "#e59c25",
+            "price": {
+                "month": 299,
+                "season": 849,
+                "year": 2390
+            },
+            "description": [
+                {
+                    "__html": "精選第四台及 MOD，合法正版電視頻道。"
+                },
+                {
+                    "__html": "400 台電視頻道：熱門新聞、體育、財經、電影、戲劇、綜藝、生活、旅遊、親子、熱播綜藝＆戲劇整套看等各類頻道。 <a href='/channel/list' target='_blank'>查看頻道列表 »</a>"
+                },
+                {
+                    "__html": "6萬小時隨選影片(<a href='/movie' target='_blank'>電影</a>＋<a href='/drama' target='_blank'>戲劇</a>＋<a href='/comic' target='_blank'>動漫</a>＋<a href='/show' target='_blank'>綜藝</a>＋<a href='/kids' target='_blank'>兒童</a>＋<a href='/blessedlife' target='_blank'>蒙福人生</a>)，皆可看。"
+                },
+                {
+                    "__html": "一個帳號，可同時在 2 台螢幕播放「電視頻道」+ 1 台螢幕播放「隨選影片」。"
+                },
+                {
+                    "__html": "支援電視、機上盒、電腦、手機、平版、車載跨螢觀賞。"
+                },
+                {
+                    "__html": "此服務方案不含「單片租借」。"
+                }
+            ],
+            "href": "/purchase/VOD_CHANNEL_DELUX",
+            "yearHref": "/purchase/VOD_CHANNEL_DELUX?packageId=XD0005&payTime=year&payMethod=CREDIT&optionPackageId=E_XDG005&step=2",
+            "vod": true,
+            "channel": true,
+            "multiscreen": true,
+            "promoLabel": {
+                "title": "送電視盒或六個月",
+                "image": "promoDelux.png",
+                "href": "https://www.litv.tv/promo/buy1get6/"
+            }
+        }
+    ]
+}

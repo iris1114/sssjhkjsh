@@ -1,0 +1,16 @@
+{
+    "CREDIT": "信用卡",
+    "CREDITS": "CREDITS",
+    "REMIT": "超商代收",
+    "HINET": "中華支付",
+    "ATM": "ATM",
+    "COUPON": "兌換卷",
+    "GIFT": "贈送",
+    "OTHER": "其他",
+    "C_HINET": "寬頻帳單付款",
+    "C_CHTLD": "手機帳單付款",
+    "C_CHTN": "市話帳單付款",
+    "C_CREDIT": "中華支付信用卡付款",
+    "C_ATM": "中華支付 ATM",
+    "C_WEBATM": "網路 ATM"
+}
